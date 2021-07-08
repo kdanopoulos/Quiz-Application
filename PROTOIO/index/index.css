@@ -1,0 +1,238 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans',sans-serif;
+}
+.header{
+  height: 20%;
+  top: 0;
+  left: 0;
+  padding: 20px 50px;
+  background-color: #48cfad;
+}
+.header p{
+  position: absolute;
+  top:0;
+  left: 43%;
+  font-weight: 500;
+  font-size:16px;
+  color: white;
+}
+.right-icon{
+  width:150px;
+  height:150px;
+  top:15%;
+  left:87%;
+  position:absolute;
+}
+.right-icon img{
+  width:135px;
+  height:135px;
+}
+.left-icon{
+  width:150px;
+  height:150px;
+  top:70%;
+  left:5%;
+  position:absolute;
+}
+.left-icon img{
+  width:120px;
+  height:120px;
+}
+.center-box{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 40%;
+  height: 40%;
+  //background: rgba(0, 0, 0, 0.6);
+}
+.start-btn{
+  position: absolute;
+  top:50%;
+  left:40%;
+  height: 50px;
+  width: 100px;
+  background: #48cfad;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px #999;
+  //border: 1px solid #48cfad;
+  //border-radius: 3px;
+  color: #fff;
+  font-weight: 500;
+  font-size:16px;
+}
+.underline-icon{
+  position: absolute;
+  top:-20px;
+  left:27%;
+  width:256px;
+  height:191px;
+}
+.start-btn:hover {background-color: #32937b;}
+
+.start-btn:active {
+  background-color: #1f6352;
+  transform: translateY(4px);
+}
+.question-box{
+  position: absolute;
+  left:-10%;
+  top:-30%;
+  width: 800px;
+  height: 400px;
+  //background-color: #1f6352;
+}
+.question-box p{
+  //background-color: #1f6352;
+  width: 65%;
+}
+.qest-num{
+  font-size: 18px;
+  color: #48cfad;
+  font-weight: 600;
+  border-bottom: 1px solid #cccccc;
+  //padding-left: 10px;
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+.question-image{
+  position: absolute;
+  width: 300px;
+  height:300px;
+  left:67%;
+  top:15%;
+}
+.multiple-choice-box{
+  position: absolute;
+  width: 60%;
+  height:200px;
+  //background-color: #6a669e;
+}
+.multiple-choice-box .not-selected{
+  background-color: #ccc;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color:#000;
+  width:100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+}
+.multiple-choice-box .not-selected:hover{
+  background-color: #999999;
+}
+.truefalse-choice-box{
+  position: absolute;
+  top:30%;
+  width: 60%;
+  height:200px;
+  //background-color: #6a669e;
+}
+.truefalse-choice-box .not-selected{
+  background-color: #ccc;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color:#000;
+  width:100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: none;
+}
+.truefalse-choice-box .not-selected:hover{
+  background-color: #999999;
+}
+
+.next-btn{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  height: 35px;
+  width: 70px;
+  background: #48cfad;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px #999;
+  color: #fff;
+  font-weight: 500;
+  font-size:16px;
+}
+.next-btn:hover {background-color: #32937b;}
+.next-btn:active {
+  background-color: #1f6352;
+  transform: translateY(4px);
+}
+.multiple-choice-box .selected{
+  background-color: #5261cf;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color:#000;
+  width:100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+}
+.truefalse-choice-box .selected{
+  background-color: #5261cf;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color:#000;
+  width:100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.test{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  height: 35px;
+  width: 70px;
+  background: #48cfad;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px #999;
+  color: #fff;
+  font-weight: 500;
+  font-size:16px;
+}
+.test:hover {background-color: #32937b;}
+.test:active {
+  background-color: #1f6352;
+  transform: translateY(4px);
+}
+.correct{
+  background-color: #48cfad;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color:#000;
+  width:100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+}
+.wrong{
+  background-color: #ed7161;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color:#000;
+  width:100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+}
